@@ -64,7 +64,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4yEzGVLm3s_ddeEHZAAZ-19" value="Wait For 10 Sec" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="10" y="400" width="60" height="60" as="geometry" />
+          <mxGeometry x="45" y="400" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4yEzGVLm3s_ddeEHZAAZ-40" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4yEzGVLm3s_ddeEHZAAZ-28" target="4yEzGVLm3s_ddeEHZAAZ-39">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4yEzGVLm3s_ddeEHZAAZ-28" value="Is Network Available?" style="rhombus;whiteSpace=wrap;html=1;align=center;spacingLeft=30;spacingRight=30;spacingTop=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="165" y="620" width="170" height="90" as="geometry" />
@@ -80,6 +83,19 @@
         <mxCell id="4yEzGVLm3s_ddeEHZAAZ-31" value="Store Data Locally" style="whiteSpace=wrap;html=1;spacingLeft=30;spacingRight=30;spacingTop=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="20" y="570" width="110" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="4yEzGVLm3s_ddeEHZAAZ-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4yEzGVLm3s_ddeEHZAAZ-39" target="4yEzGVLm3s_ddeEHZAAZ-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4yEzGVLm3s_ddeEHZAAZ-39" value="Push Data to the Server" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;spacingLeft=30;spacingRight=30;spacingTop=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <object label="Stop" id="4yEzGVLm3s_ddeEHZAAZ-43">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="165" y="870" width="170" height="40" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
